@@ -24,7 +24,7 @@ What is Spock?
 What is Mockito?
 
 
-Add some notes on configuration and getting a unit tests up and running.
+Add some notes on configuration and getting a unit tests up and running in IntelliJ.
 
 Task: 
 1) write a FizzBuzz exercise with TDD and Junit 5.
