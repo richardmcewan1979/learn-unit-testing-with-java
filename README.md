@@ -93,3 +93,9 @@ Time - Absolute and relative, is everything happening in order? At the right tim
 with respect to Range - p51 Bearings example AND stack example of an array p54 has some useful criteria to consider upon testing an array.
 
 With respect to Reference - pre-conditions and post-conditions. Example, car transmission p55.
+
+with respect to Existence - would would happen to the method if the value didn't exist, if it were null, or blank or zero? Consider URL, file, network, user input, etc test with plenty of nulls, zeros, empty strings and other 'nihilist trappings'.
+
+with respect to Cardinality - counting bugs - fencepost errors example "| | | | |" 5 posts 3 feet apart partition a 12 foot distance end to end - not 12/3 = 4 posts. See also "0-1-n Rule". See criteria to consider on p57.
+
+with respect to Time - 
