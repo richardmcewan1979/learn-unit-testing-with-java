@@ -2,7 +2,7 @@
 My notes for learning unit testing with Java
 
 New priority: get confident setting up the JUnit 5 tests alongside project...
-Issue: IntelliJ no recognising Jupiter, alternatively set up with Maven or Gradle but get a lot of build files and wrappers. 
+Issue: IntelliJ not recognising Jupiter, alternatively set up with Maven or Gradle but get a lot of build files and wrappers. 
 Side question: Can I write a simple class and test class via sublime and run it out of terminal?
 
 Some learning resources to get started:
@@ -90,3 +90,6 @@ Cardinality - Are there enough values?
 
 Time - Absolute and relative, is everything happening in order? At the right time? in time?
 
+with respect to Range - p51 Bearings example AND stack example of an array p54 has some useful criteria to consider upon testing an array.
+
+With respect to Reference - pre-conditions and post-conditions. Example, car transmission p55.
