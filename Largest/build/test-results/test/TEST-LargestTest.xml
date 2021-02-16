@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LargestTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-02-15T19:22:03" hostname="Richards-MacBook-Pro.local" time="0.095">
+  <properties/>
+  <testcase name="testOne()" classname="LargestTest" time="0.037"/>
+  <testcase name="testEmpty()" classname="LargestTest" time="0.004"/>
+  <testcase name="testOrder()" classname="LargestTest" time="0.005"/>
+  <testcase name="testDuplication()" classname="LargestTest" time="0.003"/>
+  <testcase name="testNull()" classname="LargestTest" time="0.003"/>
+  <testcase name="testNegative()" classname="LargestTest" time="0.005"/>
+  <testcase name="testSimple2()" classname="LargestTest" time="0.004"/>
+  <testcase name="testSimple()" classname="LargestTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
