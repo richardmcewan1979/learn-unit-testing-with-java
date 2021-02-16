@@ -98,4 +98,6 @@ with respect to Existence - would would happen to the method if the value didn't
 
 with respect to Cardinality - counting bugs - fencepost errors example "| | | | |" 5 posts 3 feet apart partition a 12 foot distance end to end - not 12/3 = 4 posts. See also "0-1-n Rule". See criteria to consider on p57.
 
-with respect to Time - 
+with respect to Time - Relative time, Absolute time and concurrency issues. Interesting example of Daylight Savings Time (DST) and Universal Coordinated Time (UTC). I recall some new Time (stamp) features of Java 8 or 11. Might wish to trigger back here when I learn more. All this is especially important for my project (maze solving robot) where real-time coordination will be critical. 
+
+Next sectoon to make some notes on is Mock Objects...
