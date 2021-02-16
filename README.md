@@ -59,10 +59,15 @@ Right BICEP
 If the code ran correctly, how would I know?
 
 Right - are the results right?
+
 B - are all the BOUNDARY conditions CORRECT?
+
 I - can you check INVERSE relationships? e.g. square root function should match expected square
+
 C - can you CROSS-CHECK results e.g. two data sources agree
+
 E - can you force ERROR CONDITIONS to happen?
+
 P - are PERFORMANCE CHARACTERISTICS within bounds e.g. run tests at various scale to check linear regression as expected 
 
 See also
