@@ -5,10 +5,10 @@ New priority: get confident setting up the JUnit 5 tests alongside project...
 Issue: IntelliJ not recognising Jupiter, alternatively set up with Maven or Gradle but get a lot of build files and wrappers. 
 Side question: Can I write a simple class and test class via sublime and run it out of terminal?
 
-///////////////////////////////////////////////////
+////////
 ---Some learning resources to get started, 
 search for * for leads what to explore next---
-//////////////////////////////////////////////////
+////////
 
 Entry point: 
 
