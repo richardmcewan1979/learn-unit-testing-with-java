@@ -5,17 +5,21 @@ New priority: get confident setting up the JUnit 5 tests alongside project...
 Issue: IntelliJ not recognising Jupiter, alternatively set up with Maven or Gradle but get a lot of build files and wrappers. 
 Side question: Can I write a simple class and test class via sublime and run it out of terminal?
 
-Some learning resources to get started:
+//////////////////////////////////////////////////////////////////////////////////////////
+---Some learning resources to get started, search for * for leads what to explore next---
+//////////////////////////////////////////////////////////////////////////////////////////
 
 Entry point: 
 
-Pragmatic Unit Testing in Java with JUnit, A Hunt & D Thomas
+Pragmatic Unit Testing in Java with JUnit, A Hunt & D Thomas * almost read
 
-Mastering Software testing with JUnit 5, B García.
+Mastering Software testing with JUnit 5, B García. *
+
+* I like this person, C V Guntar. He did a nice video via IntelliJ youtube on Maven. his blog, which includes a JUnit section, here: https://cguntur.me/
 
 other
 
-JUnit Team 
+JUnit Team *
 https://github.com/junit-team 
 https://junit.org
 
@@ -23,16 +27,16 @@ JetBrains
 Wriing test with JUnit 5, Trisha Gee (includes sorting dependencies via Maven or Gradle - [Edit: as I can't recall which].
 https://blog.jetbrains.com/idea/2020/09/writing-tests-with-junit-5/
 
-Mastering Java course, Udemy, Tim Bulchalka
+Mastering Java course, Udemy, Tim Bulchalka *
 OCP Java SE 11 Developer Complete Study Guide, J Boyarsky & S Selikoff 
 
 
-Questions what is different in Junit 4 and 5?
+Questions what is different in Junit 4 and 5? *
 What is Spock?
 What is Mockito?
 
 
-Add some notes on configuration and getting a unit tests up and running in IntelliJ.
+Add some notes on configuration and getting a unit tests up and running in IntelliJ. *
 
 Task: 
 1) Follow some recommended tasks to establish all is working as intended.
@@ -101,3 +105,9 @@ with respect to Cardinality - counting bugs - fencepost errors example "| | | | 
 with respect to Time - Relative time, Absolute time and concurrency issues. Interesting example of Daylight Savings Time (DST) and Universal Coordinated Time (UTC). I recall some new Time (stamp) features of Java 8 or 11. Might wish to trigger back here when I learn more. All this is especially important for my project (maze solving robot) where real-time coordination will be critical. 
 
 Next section to make some notes on is Using Mock Objects Chapter 6...
+
+To do:
+
+Make notes on Chapter 6 through up to Appendic C (to complte read). Appendix contains links and bibliography. *
+
+Summary questions and acronyms on p140 including A-Trip which needs further notes here. *
