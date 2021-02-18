@@ -180,7 +180,13 @@ Professional.
 /////Done//////
 
 Set up JUnit 5 with Maven
+
 created live template 'test' for test methods
+
+Started FizzBuzz programme for learning testing: see Example folder
+
+Question: how can do I test the for loop - directly via some kind of parametric, by refactoring the code to make testable or indirectly as attempted in penultimate test?
+
 
 
 
