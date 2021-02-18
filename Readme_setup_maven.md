@@ -2,6 +2,8 @@ IntelliJ
 
 more info see here: https://maven.apache.org/general.html#encoding-warning
 
+and this was helpful https://www.petrikainulainen.net/programming/testing/junit-5-tutorial-running-unit-tests-with-maven/
+
 build Maven use no archetype or simple etc
 
 ///Remember to hot load when making change sin the POM///
