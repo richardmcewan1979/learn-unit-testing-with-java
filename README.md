@@ -19,7 +19,7 @@ test{
 Then CMD N create test class, CMD N generate test etc
 
 Setting up JUnit via Maven.
-Create project with Maven > select helloworld archetype or simple. see attached Readme on setting up Maven dependencies. Need to work out how to default configure to Jupiter.
+Create project with Maven > select helloworld archetype or simple. see attached Readme on setting up Maven dependencies: Readme_setup_maven.md. Need to work out how to default configure to Jupiter.
 
 Side questions: Can I write a simple class and test class via sublime and run it out of terminal? Dig around to learn how to execute builds etc from command line. Can launch command line in IntelliJ with integration. 
 
