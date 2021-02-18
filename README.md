@@ -30,13 +30,18 @@ search for * for leads what to explore next---
 
 Entry point: 
 
+JetBrains 
+Wriing test with JUnit 5, Trisha Gee (includes sorting dependencies Gradle (I am using Maven so some tinkering with POM see above).
+https://blog.jetbrains.com/idea/2020/09/writing-tests-with-junit-5/
+
+Other resources:
+
 Pragmatic Unit Testing in Java with JUnit, A Hunt & D Thomas * almost read
 
 Mastering Software testing with JUnit 5, B García. *
 
 * I like this person, C V Guntar. He did a nice video via IntelliJ youtube on Maven. his blog, which includes a JUnit section, here: https://cguntur.me/
 
-other
 
 JUnit Team *
 https://github.com/junit-team 
@@ -171,5 +176,11 @@ Repeatable
 Independent
 
 Professional.
+
+/////Done//////
+
+Set up JUnit 5 with Maven
+created live template 'test' for test methods
+
 
 
