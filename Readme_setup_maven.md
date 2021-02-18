@@ -2,6 +2,8 @@ IntelliJ
 
 build Maven use no archetype or simple etc
 
+///Remember to hot load when making change sin the POM///
+
 Check the pom.xml includes correct compilation source for Java. Should read 11 not 1.7 & note added an element to property to encode files in UTF-8 and avoid platform dependency warning when running verify on Maven.
 
     <properties>
