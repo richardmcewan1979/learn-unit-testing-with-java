@@ -2,11 +2,12 @@ IntelliJ
 
 build Maven use no archetype or simple etc
 
-Check the pom.xml includes correct compilation source for Java. Should read 11 not 1.7...
+Check the pom.xml includes correct compilation source for Java. Should read 11 not 1.7 & note added an element to property to encode files in UTF-8 and avoid platform dependency warning when running verify on Maven.
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     
 Add dependencies for JUnit5 (note to self I changed version, make sure the engine version agrees).
