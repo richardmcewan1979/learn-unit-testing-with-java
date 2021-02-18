@@ -33,7 +33,7 @@ Add dependencies for JUnit5 (note to self I changed version, make sure the engin
     </dependency>
 </dependencies>
 
-//not sure I need this particular...
+//not sure I need this particular plug-in as 'native support' with jupiter, maybe only for older versions of JUnit. I deleted it and still works. See JUnit git for more info where it said not to use the surefire plug-in. 
 
     <build>
         <plugins>
