@@ -1,9 +1,27 @@
 # learn-unit-testing-with-java
 My notes for learning unit testing with Java
 
-New priority: get confident setting up the JUnit 5 tests alongside project...
-Issue: IntelliJ not recognising Jupiter, alternatively set up with Maven or Gradle but get a lot of build files and wrappers. 
-Side question: Can I write a simple class and test class via sublime and run it out of terminal?
+New priority: (fix below) still need to get more confident setting up the JUnit 5 tests alongside project...AND working with version control/git.
+
+Issue: IntelliJ was not recognising Jupiter - some issues configuring perhaps. 
+
+Alternative approach works to set up with Maven or Gradle but get a lot of build files and wrappers. May be fixed, leave this here till sorted. 
+
+Setting up Junit5 
+Via Gradle. See blog video below from T Gee:
+CMD N on Gradle build file (think that is POM - have a go).
+Type JUnit in Archetype box. Select 5.6.2 (or most recent see JUNit Git).
+Need to add to dependencies -> compile "org.junit.jupiter:junit-jupiter:5.6.2"
+Add 
+test{
+  useJUnitPlatform()
+}
+Then CMD N create test class, CMD N generate test etc
+
+Setting up JUnit via Maven.
+Create project with Maven > select helloworld archetype.
+
+Side questions: Can I write a simple class and test class via sublime and run it out of terminal? Dig around to learn how to execute builds etc from command line. Can launch command line in IntelliJ with integration. 
 
 ////////
 ---Some learning resources to get started, 
@@ -25,19 +43,22 @@ https://github.com/junit-team
 https://junit.org
 
 JetBrains 
-Wriing test with JUnit 5, Trisha Gee (includes sorting dependencies via Maven or Gradle - [Edit: as I can't recall which].
+Wriing test with JUnit 5, Trisha Gee (includes sorting dependencies Gradle.
 https://blog.jetbrains.com/idea/2020/09/writing-tests-with-junit-5/
 
+
 Mastering Java course, Udemy, Tim Bulchalka *
+
 OCP Java SE 11 Developer Complete Study Guide, J Boyarsky & S Selikoff 
 
 
 Questions what is different in Junit 4 and 5? *
 What is Spock?
 What is Mockito?
+*Guess above is for mocking objects I want to test. How does that work for GUI. See JavaFX (JavaFXTest or similar name also see Flutter for UI).
 
 
-Add some notes on configuration and getting a unit tests up and running in IntelliJ. *
+DONE - Add some notes on configuration and getting a unit tests up and running in IntelliJ.
 
 Task: 
 1) Follow some recommended tasks to establish all is working as intended.
@@ -48,14 +69,40 @@ Some further notes:
 
 From Pragmatic Unit Testing.
 
-See Largest as example for a test to find the largest value element of an array. 
-Note that approach is later extended see the example concept via TestLargestDataFile p39. See also TestSuite and custom asserts addressed in earlier sections for test classes containing test classes etc. 
+General Principles:
+
+-Test anything that might break
+
+-Test everything that dies break
+
+-New code is guilty until proven innocent
+
+-Write at least as much test code as production code
+
+-Run local tests with each compile
+
+-Run all tests before check-in to repository
+
+some questions: 
+
+If the code ran correctly, how would I know?
+
+How am I going to test this?
+
+What else can go wrong?
+
+Could this same kind of problem happen anywhere else?
+
+See Largest as example for a test to find the largest value element of an array. [Edit add code for reference, I couldn't locate it as it appears as RAW maybe due to being built and turned to bytecode]
+
+Note Largest number in array example is later extended see the example concept via TestLargestDataFile p39. See also TestSuite and custom asserts addressed in earlier sections for test classes containing test classes etc. 
 
 JUnit skeleton requires:
 
-1) An import statement to bring in junit.framework.* (or similar)
+1) An import statement to bring in junit.framework.* (or similar such as import org.junit.Test;)
 2) An extends statement so your class will inherit from TestCase
 3) A constructor with a call to super(string)
+*Cannot see all of these in JUnit5
 
 DRY - test conform to: Don't Repeat Yourself - Note see annotations such as @Before e.g. in case of reading a file
 
@@ -111,4 +158,18 @@ To do:
 
 Make notes on Chapter 6 through up to Appendic C (to complte read). Appendix contains links and bibliography. *
 
-Summary questions and acronyms on p140 including A-Trip which needs further notes here. *
+Summary questions and acronyms on p140 including A-Trip which needs further notes here. 
+
+A-TRIP
+
+Automatic
+
+Thorough
+
+Repeatable
+
+Independent
+
+Professional.
+
+
