@@ -1,5 +1,7 @@
 IntelliJ
 
+more info see here: https://maven.apache.org/general.html#encoding-warning
+
 build Maven use no archetype or simple etc
 
 ///Remember to hot load when making change sin the POM///
