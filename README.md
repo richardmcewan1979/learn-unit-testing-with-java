@@ -4,6 +4,7 @@ My notes for learning unit testing with Java
 New priority: (fix below) still need to get more confident setting up the JUnit 5 tests alongside project...AND working with version control/git.
 
 Issue: IntelliJ was not recognising Jupiter - some issues configuring perhaps. 
+Fix: Just go into project structure and depdenices and select compile on JUnit from drop down. 
 
 Alternative approach works to set up with Maven or Gradle but get a lot of build files and wrappers. May be fixed, leave this here till sorted. 
 
